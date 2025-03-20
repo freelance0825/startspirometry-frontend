@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0"/> <!-- Light gray when pressed -->
+            <corners android:radius="50dp"/> <!-- Oval shape -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- White background -->
+            <corners android:radius="50dp"/> <!-- Oval shape -->
+            <stroke android:width="2dp" android:color="#D1D1D1"/> <!-- Thin gray border -->
+        </shape>
+    </item>
+</selector>
